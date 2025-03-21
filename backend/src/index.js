@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://vercel.com/pushpendraraj7879s-projects/chat-sphere",
+    origin: "https://chat-sphere-eight.vercel.app",
     credentials: true,
   })
 );
