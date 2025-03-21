@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://vercel.com/pushpendraraj7879s-projects/chat-sphere",
     credentials: true,
   })
 );
